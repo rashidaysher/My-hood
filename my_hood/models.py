@@ -15,14 +15,14 @@ class NeighbourHood(models.Model):
     police_number = models.IntegerField(null=True, blank=True)
 
     def __str__(self):
-    #     return f'{self.name} hood'
+        return f'{self.name} hood'
 
-    # def create_neighborhood(self):
-    #     self.save()
+    def create_neighborhood(self):
+        self.save()
 
-    # def delete_neighborhood(self):
-    #     self.delete()
+    def delete_neighborhood(self):
+        self.delete()
 
-    # @classmethod
-    # def find_neighborhood(cls, neighborhood_id):
-    #     return cls.objects.filter(id=neighborhood_id)
+    @classmethod
+    def find_neighborhood(cls, neighborhood_id):
+        return cls.objects.filter(id=neighborhood_id)
