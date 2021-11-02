@@ -37,8 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'my_hood'
+    'my_hood',
+    'pyuploadcare',
+    'crispy_forms',
+
 ]
+
+UPLOADCARE = {
+    'pub_key': '2b709bca64245dd9e55e',
+    'secret': '0a60851de5f3db2dc728',
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
