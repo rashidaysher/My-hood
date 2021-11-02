@@ -59,4 +59,13 @@ def single_hood(request, hood_id):
             b_form.neighbourhood = hood
             b_form.user = request.user.profile
             b_form.save()
-            return redirect('single-hood', hood.id)               
+            return redirect('single-hood', hood.id)
+    else:
+        form = BusinessForm()
+    params = {
+        'hood': hood,
+        'business': business,
+        'form': form,
+        'posts': posts
+    }
+    return render(request, 'single_hood.html', params)                       
