@@ -26,7 +26,7 @@ To get the project .......
   
 ##### Cloning the repository:  
  ```bash 
-https://github.com/rashidaysher/HoodWatch.git
+https://github.com/rashidaysher/My-hood
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
