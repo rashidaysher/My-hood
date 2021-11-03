@@ -4,11 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+Django = "*"
 django-crispy-forms = "*"
 pyuploadcare = "*"
-psycopg2-binary = "*"
-pillow = "*"
+Pillow = "*"
 django-cors-headers = "*"
 whitenoise = "*"
 django-bootstrap4 = "*"
@@ -16,6 +15,8 @@ gunicorn = "*"
 decouple = "*"
 python-decouple = "*"
 dj-database-url = "*"
+psycopg2-binary = "*"
+django-heroku = "*"
 
 [dev-packages]
 
