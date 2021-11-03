@@ -115,7 +115,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'hood.wsgi.application'
+WSGI_APPLICATION = 'hood.wsgi.application'
 
 
 # Database
