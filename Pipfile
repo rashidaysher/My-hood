@@ -8,6 +8,13 @@ django = "*"
 django-crispy-forms = "*"
 pyuploadcare = "*"
 psycopg2-binary = "*"
+pillow = "*"
+django-cors-headers = "*"
+whitenoise = "*"
+django-bootstrap4 = "*"
+gunicorn = "*"
+decouple = "*"
+python-decouple = "*"
 
 [dev-packages]
 
