@@ -15,6 +15,7 @@ django-bootstrap4 = "*"
 gunicorn = "*"
 decouple = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
